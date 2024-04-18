@@ -1,0 +1,81 @@
+CRITICAL - 2022-05-05 03:43:44 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-05 08:58:26 --> Trying to get property 'nama_tugas' of non-object
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(446): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:04:25 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(446): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:05:33 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(447): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:05:36 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(447): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:05:36 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(447): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:05:36 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(447): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 09:05:37 --> Undefined property: stdClass::$nama_guru
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\tugas\lihat-tugas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/tugas/lih...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(447): view('siswa/tugas/lih...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_tugas('eC9QcmtzYWpCRDR...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2024-04-15 10:53:03 --> Attempt to read property "kelas" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(2666): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 2666)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->lihat_ujian('MFgwMzRjekRBUGU...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}

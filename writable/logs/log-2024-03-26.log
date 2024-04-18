@@ -1,0 +1,72 @@
+CRITICAL - 2024-03-26 13:45:14 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('Zm9jUHpSbTByS2E...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 13:45:17 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('Zm9jUHpSbTByS2E...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 21:52:34 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('TmdleGNIOHBYN3B...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:00:40 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('M250Y1FEYU1NTVd...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:00:41 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('WXo5eEhVTjViRDJ...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:04:40 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('OW56WjYzeHJQVkl...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:15:47 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('elJkQjVRNXlCUFN...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:15:50 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('elJkQjVRNXlCUFN...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-03-26 22:17:37 --> Attempt to read property "waktu_ujian" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\Siswa.php(810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 810)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('WUVnaDRrNzcwZCt...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}

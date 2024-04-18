@@ -1,0 +1,88 @@
+CRITICAL - 2021-12-28 18:15:56 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:01 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:06 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:11 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:16 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:21 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:26 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:31 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:36 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:41 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:16:46 --> Call to undefined method App\Models\ChatmateriModel::ger
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Models\ChatmateriModel.php(17): CodeIgniter\Model->__call('ger', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(428): App\Models\ChatmateriModel->getAllByKodeMateri('zRWvI2i4')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->get_chat_materi()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

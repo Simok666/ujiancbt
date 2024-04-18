@@ -1,0 +1,55 @@
+CRITICAL - 2023-03-10 09:40:36 --> Undefined property: stdClass::$waktu_mulai
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\guru\ujian\essay-lihat.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('guru/ujian/essa...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(1773): view('guru/ujian/essa...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->lihat_essay('dHM3K3p6SGVGWXF...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 09:41:09 --> Undefined property: stdClass::$waktu_berakhir
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\guru\ujian\essay-lihat.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('guru/ujian/essa...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(1773): view('guru/ujian/essa...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->lihat_essay('dHM3K3p6SGVGWXF...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 13:56:49 --> Trying to get property 'id_essay_siswa' of non-object
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\ujian\essay-lihat.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/ujian/ess...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(829): view('siswa/ujian/ess...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('dHM3K3p6SGVGWXF...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 13:58:27 --> Trying to get property 'id_essay_siswa' of non-object
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\ujian\essay-lihat.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/ujian/ess...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(830): view('siswa/ujian/ess...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('dHM3K3p6SGVGWXF...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 14:26:09 --> Trying to get property 'id_essay_siswa' of non-object
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\ujian\essay-lihat.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/ujian/ess...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(829): view('siswa/ujian/ess...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('dHM3K3p6SGVGWXF...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

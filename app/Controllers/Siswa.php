@@ -816,7 +816,10 @@ class Siswa extends BaseController
         $data['ujian'] = $this->UjianModel->getBykode(decrypt_url($kode_ujian));
         $data['essay_detail'] = $this->EssaydetailModel->getAllBykodeUjian(decrypt_url($kode_ujian));
         $data['ujian_siswa'] = $this->EssaysiswaModel->getAllByUjianAndSiswa(decrypt_url($kode_ujian), session()->get('id'));
-
+echo "<pre>";
+print_r($data);
+echo "</pre>";
+die();
         if (count($data['ujian_siswa']) == 0) {
             $essay_siswa = [];
             foreach ($data['essay_detail'] as $soal) {

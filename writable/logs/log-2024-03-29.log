@@ -1,0 +1,13 @@
+CRITICAL - 2024-03-29 19:39:57 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Projects\\arf...', 1697)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1697): implode(',', Array)
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1628): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#5 E:\Projects\arfod-tryout\app\Controllers\Guru.php(1289): CodeIgniter\BaseModel->insertBatch(Array)
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->tambah_pg_()
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#11 {main}

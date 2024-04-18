@@ -1,0 +1,29 @@
+CRITICAL - 2022-01-14 07:50:47 --> Undefined variable: s
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\siswa\ujian\essay-lihat.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('siswa/ujian/ess...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Siswa.php(703): view('siswa/ujian/ess...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Siswa->lihat_essay('N05MempIYm5IckV...', 'SFM0NEhRR05JOGU...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 08:16:00 --> Trying to get property 'nama_siswa' of non-object
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\guru\ujian\essay-siswa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('guru/ujian/essa...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(1672): view('guru/ujian/essa...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->essay_siswa('SFM0NEhRR05JOGU...', 'N05MempIYm5IckV...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 08:17:33 --> Undefined property: App\Controllers\Guru::$session
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Guru.php(1700): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1700, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Guru->nilai_essay()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

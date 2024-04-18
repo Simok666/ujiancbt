@@ -1,0 +1,20 @@
+CRITICAL - 2022-01-12 03:00:17 --> Undefined property: App\Controllers\Auth::$email
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Auth.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 350, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->register_()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-12 03:01:40 --> Undefined variable: ruangbelajar.abduloh@gmail.com
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\Auth.php(357): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 357, Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->register_()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-12 22:44:21 --> Class 'App\Models\EssaysiswalModel' not found
+#0 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Guru->__construct()
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

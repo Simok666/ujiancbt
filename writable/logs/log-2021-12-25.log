@@ -1,0 +1,122 @@
+CRITICAL - 2021-12-25 06:59:33 --> Class 'APP\Models\GurukelasModel' not found
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\admin\guru\relasi.php(28): check_kelas('WHJrWjVUMDJzaDF...', '1')
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(808): view('admin/guru/rela...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('WHJrWjVUMDJzaDF...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 07:00:48 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\admin\guru\relasi.php(28): check_kelas('WHJrWjVUMDJzaDF...', '1')
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(808): view('admin/guru/rela...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('WHJrWjVUMDJzaDF...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 07:00:50 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Views\admin\guru\relasi.php(28): check_kelas('WHJrWjVUMDJzaDF...', '1')
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(808): view('admin/guru/rela...', Array)
+#5 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('WHJrWjVUMDJzaDF...')
+#6 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 07:09:00 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:10:08 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:08 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:10 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:11 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:11 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:48 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:50 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:12:50 --> Call to undefined method App\Models\KelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:13:34 --> Call to undefined method App\Models\GurukelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:13:52 --> Call to undefined method App\Models\GurukelasModel::getResultObject
+#0 C:\xampp\htdocs\cbt-malela-ci4\app\Controllers\App.php(835): CodeIgniter\Model->__call('getResultObject', Array)
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 07:23:13 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_mapel()
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 07:23:14 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_mapel()
+#1 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 C:\xampp\htdocs\cbt-malela-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cbt-malela-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

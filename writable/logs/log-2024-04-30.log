@@ -1,0 +1,13 @@
+CRITICAL - 2024-04-30 23:25:16 --> Attempt to read property "status_member" on array
+#0 E:\Projects\arfod-tryout\app\Views\template\app.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 445)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/app', Array, true)
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#5 E:\Projects\arfod-tryout\app\Controllers\App.php(144): view('admin/dashboard', Array)
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->index()
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#8 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#11 {main}

@@ -13,7 +13,7 @@
                 <div class="shadow-bottom"></div>
                 <ul class="list-unstyled menu-categories" id="accordionExample">
                     <li class="menu">
-                        <a href="https://wa.me/0884093919?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank" class="dropdown-toggle">
+                        <a href="https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank" class="dropdown-toggle">
                             <div class="">
                                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
                                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -40,8 +40,8 @@
                             </svg><span>PESERTA MENU</span></div>
                     </li>
 
-                    <?php if ($siswa->status_member == '1'): ?>
-                    <li class="menu <?= $menu_materi['menu']; ?>">
+                    <!-- <?php //if ($siswa->status_member == '1'): ?> -->
+                    <li class="menu sidebar-materi <?= $menu_materi['menu']; ?>">
                         <a href="<?= base_url('siswa/materi'); ?>" aria-expanded="<?= $menu_materi['expanded']; ?>" class="dropdown-toggle">
                             <div class="">
                                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
@@ -52,7 +52,7 @@
                             </div>
                         </a>
                     </li>
-                    <?php endif; ?>
+                    <!-- <?php //endif; ?> -->
 
                     <li class="menu <?= $menu_ujian['menu']; ?>">
                         <a href="<?= base_url('siswa/ujian'); ?>" aria-expanded="<?= $menu_ujian['expanded']; ?>" class="dropdown-toggle">
@@ -99,3 +99,27 @@
 
         </div>
         <!--  END SIDEBAR  -->
+<script>
+    <?php if ($siswa->status_member != '1') : ?>
+        $(".sidebar-materi").on("click", function(a) {
+            a.preventDefault();
+            url = "https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20";
+            swal({
+                icon: "error",
+                title: "Ups...",
+                text: "Akun anda masih trial",
+                type: "warning",
+                showCancelButton: !0,
+                cancelButtonText: "Nanti dulu",
+                confirmButtonText: "Upgrade premium",
+                padding: "2em"
+                // footer: '<a href="https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank">Upgrade ke premium jika ingin membuka fitur ini</a>'
+            }).then((result) => {
+            if (result.value){
+                // console.log(url);
+                window.open(url, '_blank');
+            }
+        })
+        });
+    <?php endif; ?>
+</script>

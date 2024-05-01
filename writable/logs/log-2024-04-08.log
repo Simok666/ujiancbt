@@ -1,0 +1,8 @@
+CRITICAL - 2024-04-08 03:47:32 --> Undefined property: App\Controllers\App::$ChatmateriModel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1683): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1683)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->hapus_materi('OWpvME1ZbE1ST0c...', 'SFM0NEhRR05JOGU...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}

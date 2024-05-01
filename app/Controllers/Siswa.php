@@ -679,6 +679,10 @@ class Siswa extends BaseController
         $data['detail_ujian'] = $this->UjiandetailModel->getAllBykodeUjian(decrypt_url($kode_ujian));
         $data['ujian_siswa'] = $this->UjiansiswaModel->cek_sudah_ujian(decrypt_url($kode_ujian), session()->get('id'));
 
+        if ($data['ujian'] === null) {
+            $data['ujian'] = $this->UjianModel->getBykodeAdmin(decrypt_url($kode_ujian));
+        }
+
         if (count($data['ujian_siswa']) == 0) {
             $pg_siswa = [];
             foreach ($data['detail_ujian'] as $soal) {
@@ -816,10 +820,11 @@ class Siswa extends BaseController
         $data['ujian'] = $this->UjianModel->getBykode(decrypt_url($kode_ujian));
         $data['essay_detail'] = $this->EssaydetailModel->getAllBykodeUjian(decrypt_url($kode_ujian));
         $data['ujian_siswa'] = $this->EssaysiswaModel->getAllByUjianAndSiswa(decrypt_url($kode_ujian), session()->get('id'));
-echo "<pre>";
-print_r($data);
-echo "</pre>";
-die();
+
+        if ($data['ujian'] === null) {
+            $data['ujian'] = $this->UjianModel->getBykodeAdmin(decrypt_url($kode_ujian));
+        }
+
         if (count($data['ujian_siswa']) == 0) {
             $essay_siswa = [];
             foreach ($data['essay_detail'] as $soal) {

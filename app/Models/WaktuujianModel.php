@@ -16,6 +16,7 @@ class WaktuujianModel extends Model
             ->join('ujian', 'ujian.kode_ujian=waktu_ujian.kode_ujian')
             ->join('siswa', 'siswa.id_siswa=waktu_ujian.siswa_id')
             ->where('waktu_ujian.siswa_id', $siswa_id)
+            ->where('publish =', 1)
             ->get()->getResultObject();
     }
 

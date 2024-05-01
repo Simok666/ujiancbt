@@ -314,8 +314,10 @@ date_default_timezone_set('Asia/Jakarta');
                                                         echo '<span class="badge badge-warning ml-1">Ragu - Ragu</span>';
                                                     } ?>
                                                 </div>
+                                                <div class="mt-2" style="font-weight: bold;"> Jawaban Benar : <?= $soal->jawaban ?></div>
                                             </div>
                                             <div class="widget-content mt-3" style="border-top: 1px solid #e0e6ed;">
+                                            <h6 class="widget-content mt-3">Pembahasan</h6>
                                                 <div class="widget-content mt-3">
                                                     <?= $soal->pembahasan; ?>
                                                 </div>

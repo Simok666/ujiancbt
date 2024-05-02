@@ -47,8 +47,8 @@ $WaktuujianModel = new WaktuujianModel();
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.js"></script>
-    <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script>
-    <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script>
+    <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" /> -->
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/elements/infobox.css" rel="stylesheet" type="text/css" />

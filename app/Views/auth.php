@@ -18,7 +18,7 @@
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.js"></script>
-    <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script>
+    <!-- <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script> -->
     <style>
         svg#freepik_stories-mobile-login:not(.animated) .animable {
             opacity: 0;

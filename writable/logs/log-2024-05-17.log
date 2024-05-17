@@ -1,0 +1,16 @@
+CRITICAL - 2024-05-17 04:42:45 --> Undefined variable $menu_materi
+#0 E:\Projects\arfod-tryout\app\Views\template\sidebar\admin.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Projects\\arf...', 92)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(3): CodeIgniter\View\View->include('template/sideba...')
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#8 E:\Projects\arfod-tryout\app\Controllers\App.php(1185): view('admin/guru/rela...', Array)
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('UXNFWHE0dzlPcjR...')
+#10 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#11 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#14 {main}

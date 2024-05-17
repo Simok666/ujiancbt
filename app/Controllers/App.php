@@ -1171,6 +1171,20 @@ class App extends BaseController
             'menu' => 'active',
             'expanded' => 'true',
         ];
+        
+        $data['menu_materi'] = [
+            'menu' => '',
+            'expanded' => 'false',
+        ];
+        $data['menu_tugas'] = [
+            'menu' => '',
+            'expanded' => 'false',
+        ];
+        $data['menu_ujian'] = [
+            'menu' => '',
+            'expanded' => 'false',
+        ];
+        
         $data['menu_profile'] = [
             'menu' => '',
             'expanded' => 'false',

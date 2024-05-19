@@ -1137,6 +1137,21 @@ class App extends BaseController
         $data['mapel'] = $this->MapelModel->asObject()->findAll();
         $data['guru'] = $this->GuruModel->asObject()->findAll();
         $data['admin'] = $this->AdminModel->asObject()->first();
+        
+        $adm = $data['admin'];
+        $admin = (object)[
+            'id_guru' => $adm->id_admin,
+            'nama_guru' => $adm->nama_admin,
+            'email' => $adm->email,
+            'password' => $adm->password,
+            'role' => $adm->role,
+            'is_active' => $adm->is_active,
+            'date_created' => $adm->date_created,
+            'avatar' => $adm->avatar,
+            'guru_kelas' => '',
+            'guru_mapel' => '' 
+        ];
+        $data['guru'][] = $admin;
 
         return view('admin/guru/list-relasi', $data);
     }
@@ -1195,6 +1210,23 @@ class App extends BaseController
         $data['mapel'] = $this->MapelModel->asObject()->findAll();
         $data['guru'] = $this->GuruModel->asObject()->find($id_guru);
         $data['admin'] = $this->AdminModel->asObject()->first();
+
+        if ($data['guru'] === null) {
+            $adm = $data['admin'];
+            $admin = (object)[
+                'id_guru' => $adm->id_admin,
+                'nama_guru' => $adm->nama_admin,
+                'email' => $adm->email,
+                'password' => $adm->password,
+                'role' => $adm->role,
+                'is_active' => $adm->is_active,
+                'date_created' => $adm->date_created,
+                'avatar' => $adm->avatar,
+                'guru_kelas' => '',
+                'guru_mapel' => '' 
+            ];
+            $data['guru'] = $admin;
+        }
 
         return view('admin/guru/relasi', $data);
     }

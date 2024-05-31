@@ -1,8 +1,0 @@
-__ci_last_regenerate|i:1716127907;_ci_previous_url|s:70:"http://localhost:8080/app/atur_relasi/SFM0NEhRR05JOGUzb2F4UElwODZKQT09";id|s:1:"1";email|s:15:"admin@gmail.com";nama|s:5:"Admin";role|s:1:"1";pesan|s:223:"
-                swal({
-                    title: 'Berhasil!',
-                    text: 'data diubah',
-                    type: 'success',
-                    padding: '2em'
-                    })
-                ";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

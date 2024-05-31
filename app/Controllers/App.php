@@ -1675,7 +1675,8 @@ class App extends BaseController
         if ($this->request->isAJAX()) {
             $kode_materi = $this->request->getVar('kode_materi');
             $chat_materi = $this->request->getVar('chat_materi');
-            $user = $this->GuruModel->asObject()->find(session('id'));
+            // $user = $this->GuruModel->asObject()->find(session('id'));
+            $user = $this->AdminModel->asObject()->find(session('id'));
 
             $data = [
                 'materi' => $kode_materi,
@@ -1801,7 +1802,7 @@ class App extends BaseController
     }
     public function tambah_tugas()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         $data_tugas = [
@@ -1959,7 +1960,7 @@ class App extends BaseController
     }
     public function edit_tugas()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         if ($this->request->isAJAX()) {
@@ -1970,7 +1971,7 @@ class App extends BaseController
     }
     public function edit_tugas_()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         $kode_tugas = $this->request->getVar('e_kode_tugas');
@@ -2038,7 +2039,7 @@ class App extends BaseController
     }
     public function lihat_tugas($data_kode_tugas, $data_id_guru)
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         // MENU DATA
@@ -2074,7 +2075,7 @@ class App extends BaseController
     }
     public function get_chat_tugas()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         if ($this->request->isAJAX()) {
@@ -2119,17 +2120,18 @@ class App extends BaseController
     }
     public function chat_tugas()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         if ($this->request->isAJAX()) {
             $kode_tugas = $this->request->getVar('kode_tugas');
             $chat_tugas = $this->request->getVar('chat_tugas');
-            $user = $this->GuruModel->asObject()->find(session()->get('id'));
+            // $user = $this->GuruModel->asObject()->find(session()->get('id'));
+            $user = $this->AdminModel->asObject()->find(session()->get('id'));
 
             $data = [
                 'tugas' => $kode_tugas,
-                'nama' => $user->nama_guru,
+                'nama' => $user->nama_admin,
                 'email' => $user->email,
                 'gambar' => $user->avatar,
                 'text' => $chat_tugas,
@@ -2141,7 +2143,7 @@ class App extends BaseController
     }
     public function tugas_siswa($kode_tugas, $id_siswa)
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         // MENU DATA
@@ -2181,7 +2183,7 @@ class App extends BaseController
     }
     public function nilai_tugas()
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         $this->Tugas_siswaModel
@@ -2203,7 +2205,7 @@ class App extends BaseController
     }
     public function hapus_tugas($kode_tugas)
     {
-        if (session()->get('role') != 3) {
+        if (session()->get('role') != 1) {
             return redirect()->to('auth');
         }
         $this->FileModel

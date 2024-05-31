@@ -1,0 +1,72 @@
+CRITICAL - 2024-05-31 08:14:09 --> Attempt to read property "avatar" on null
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1683): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 1683)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:14:51 --> syntax error, unexpected token "if"
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('app/get_chat_ma...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('app/get_chat_ma...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:22:13 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:22:26 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:23:18 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:24:08 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:24:41 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:24:59 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-31 08:25:39 --> Undefined property: App\Controllers\App::$Adminmodel
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Projects\\arf...', 1679)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->chat_materi()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}

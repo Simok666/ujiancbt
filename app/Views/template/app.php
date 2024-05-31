@@ -36,7 +36,7 @@ $WaktuujianModel = new WaktuujianModel();
     <!-- END GLOBAL MANDATORY STYLES -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-    <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <!-- <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/apex/apexcharts.css" rel="stylesheet" type="text/css"> -->
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/dashboard/dash_2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/table/datatable/datatables.css">
@@ -47,8 +47,8 @@ $WaktuujianModel = new WaktuujianModel();
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/sweetalert2.min.js"></script>
-    <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script>
-    <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/sweetalerts/custom-sweetalert.js"></script>
+    <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" /> -->
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/css/elements/infobox.css" rel="stylesheet" type="text/css" />
@@ -83,8 +83,8 @@ $WaktuujianModel = new WaktuujianModel();
     <!-- END GLOBAL MANDATORY SCRIPTS -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-    <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/apex/apexcharts.min.js"></script>
-    <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/js/dashboard/dash_1.js"></script>
+    <!-- <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/apex/apexcharts.min.js"></script> -->
+    <!-- <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/js/dashboard/dash_1.js"></script> -->
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/table/datatable/datatables.js"></script>
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/plugins/file-upload/file-upload-with-preview.min.js"></script>
     <script src="<?= base_url('assets/app-assets/template/cbt-malela'); ?>/assets/js/scrollspyNav.js"></script>

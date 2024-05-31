@@ -330,6 +330,10 @@ class Siswa extends BaseController
         $data['materi'] = $this->MateriModel->getBykodeMateri(decrypt_url($kode));
         $data['file'] = $this->FileModel->getAllByKode(decrypt_url($kode));
 
+        if ($data['materi'] === null) {
+            $data['materi'] = $this->MateriModel->getBykodeMateriAdmin(decrypt_url($kode));
+        }
+
         $this->Materi_siswaModel
             ->where('materi', decrypt_url($kode))
             ->where('siswa', session()->get('id'))

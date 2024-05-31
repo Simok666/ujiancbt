@@ -1,0 +1,227 @@
+CRITICAL - 2024-05-19 05:12:33 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1217): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:15:04 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1217): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:15:45 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1220): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:15:58 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1220): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:17:22 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1220): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:19:58 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1220): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 05:19:59 --> Attempt to read property "id_guru" on null
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1220): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 06:14:18 --> Attempt to read property "id_guru" on array
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1235): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 06:15:00 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:18 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:19 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:19 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:20 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:20 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:20 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:15:59 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:16:07 --> Cannot use object of type stdClass as array
+#0 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('bXd5aFl6MExGVnR...')
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#5 {main}
+CRITICAL - 2024-05-19 06:16:11 --> Attempt to read property "id_guru" on array
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1235): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 06:17:45 --> Attempt to read property "id_guru" on array
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1237): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 06:18:12 --> Attempt to read property "id_guru" on array
+#0 E:\Projects\arfod-tryout\app\Views\admin\guru\relasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\Projects\\arf...', 28)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Projects\\arf...')
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/guru/rela...', Array, true)
+#4 E:\Projects\arfod-tryout\app\Controllers\App.php(1237): view('admin/guru/rela...', Array)
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->atur_relasi('SFM0NEhRR05JOGU...')
+#6 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#10 {main}
+CRITICAL - 2024-05-19 07:22:44 --> Undefined variable $data
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Projects\\arf...', 1245)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-19 07:23:59 --> Undefined variable $data
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Projects\\arf...', 1245)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-19 07:24:51 --> Undefined variable $data
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Projects\\arf...', 1245)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}
+CRITICAL - 2024-05-19 07:25:05 --> Undefined variable $data
+#0 E:\Projects\arfod-tryout\app\Controllers\App.php(1245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Projects\\arf...', 1245)
+#1 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\App->guru_kelas()
+#2 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\arfod-tryout\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\arfod-tryout\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Projects\\arf...')
+#6 {main}

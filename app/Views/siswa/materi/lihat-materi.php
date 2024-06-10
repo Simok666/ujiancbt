@@ -13,7 +13,7 @@
                         <table class="mt-3">
                             <tr>
                                 <th>Operator</th>
-                                <th> : <?= $materi->nama_guru; ?></th>
+                                <th> : <?= (isset($materi->nama_guru)) ? $materi->nama_guru : $materi->nama_admin; ?></th>
                             </tr>
                             <tr>
                                 <th>Kelas</th>

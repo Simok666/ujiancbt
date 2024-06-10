@@ -23,7 +23,7 @@ $mapelmodel = new MapelModel();
                     <div class="widget-content">
                         <?php if ($materi_siswa != null) : ?>
                             <?php foreach ($materi_siswa as $ms) : ?>
-                                <a href="<?= base_url('siswa/lihat_materi/') . '/' . encrypt_url($ms->kode_materi); ?>">
+                                <a class="notif-materi" href="<?= base_url('siswa/lihat_materi/') . '/' . encrypt_url($ms->kode_materi); ?>">
                                     <div class="transactions-list mt-1">
                                         <div class="t-item">
                                             <div class="t-company-name">
@@ -177,6 +177,29 @@ $mapelmodel = new MapelModel();
 
 <script>
     <?= session()->getFlashdata('pesan'); ?>
+
+    <?php if ($siswa->kelas == '7') : ?>
+        $(".notif-materi").on("click", function(a) {
+            a.preventDefault();
+            url = "https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20";
+            swal({
+                icon: "error",
+                title: "Ups...",
+                text: "Akun anda masih trial",
+                type: "warning",
+                showCancelButton: !0,
+                cancelButtonText: "Nanti dulu",
+                confirmButtonText: "Upgrade premium",
+                padding: "2em"
+                // footer: '<a href="https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank">Upgrade ke premium jika ingin membuka fitur ini</a>'
+            }).then((result) => {
+            if (result.value){
+                // console.log(url);
+                window.open(url, '_blank');
+            }
+        })
+        });
+    <?php endif; ?>
 
     // $(".mulai-ujian").on("click", function(a) {
     //     a.preventDefault(); 

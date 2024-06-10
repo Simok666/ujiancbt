@@ -100,7 +100,7 @@
         </div>
         <!--  END SIDEBAR  -->
 <script>
-    <?php if ($siswa->status_member != '1') : ?>
+    <?php if ($siswa->kelas == '7') : ?>
         $(".sidebar-materi").on("click", function(a) {
             a.preventDefault();
             url = "https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20";

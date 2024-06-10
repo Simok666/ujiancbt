@@ -1,0 +1,12 @@
+__ci_last_regenerate|i:1718018292;_ci_previous_url|s:27:"http://localhost:8080/siswa";id|s:1:"1";email|s:14:"budi@gmail.com";nama|s:4:"Budi";role|s:1:"2";kelas|s:1:"7";pesan|s:415:"
+                swal({
+                    icon: 'error',
+                    title: 'Ups...',
+                    text: 'Akun anda masih trial',
+                    type: 'warning',
+                    showCancelButton: '',
+                    cancelButtonText: 'Nanti dulu',
+                    confirmButtonText: 'Upgrade premium',
+                    padding: '2em'
+                }); 
+            ";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

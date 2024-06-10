@@ -334,10 +334,10 @@ class Siswa extends BaseController
             $data['materi'] = $this->MateriModel->getBykodeMateriAdmin(decrypt_url($kode));
         }
 
-        $this->Materi_siswaModel
-            ->where('materi', decrypt_url($kode))
-            ->where('siswa', session()->get('id'))
-            ->delete();
+        // $this->Materi_siswaModel
+        //     ->where('materi', decrypt_url($kode))
+        //     ->where('siswa', session()->get('id'))
+        //     ->delete();
 
         return view('siswa/materi/lihat-materi', $data);
     }

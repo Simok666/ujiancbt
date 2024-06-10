@@ -92,6 +92,11 @@ $WaktuujianModel = new WaktuujianModel();
     <script src="<?= base_url('assets/app-assets/ew'); ?>/js/examwizard.min.js"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
+    <style>
+        .swal2-container.swal2-shown{
+            z-index: 10000 !important;
+        }
+    </style>
 </head>
 
 <body class="sidebar-noneoverflow">

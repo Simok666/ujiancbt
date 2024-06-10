@@ -1,0 +1,8 @@
+__ci_last_regenerate|i:1717758595;_ci_previous_url|s:32:"http://localhost:8080/app/materi";id|s:1:"1";email|s:15:"admin@gmail.com";nama|s:5:"Admin";role|s:1:"1";pesan|s:204:"
+            swal({
+                title: 'Berhasil!',
+                text: 'Materi telah dibuat',
+                type: 'success',
+                padding: '2em'
+                });
+            ";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

@@ -185,7 +185,7 @@ $mapelmodel = new MapelModel();
             swal({
                 icon: "error",
                 title: "Ups...",
-                text: "Akun anda masih trial",
+                text: "Akun anda masih trial, mohon hubungi admin dinomor WhatsApp +62 856-0322-0708 atau klik Upgrade Premium",
                 type: "warning",
                 showCancelButton: !0,
                 cancelButtonText: "Nanti dulu",

@@ -1,4 +1,4 @@
-__ci_last_regenerate|i:1718017005;_ci_previous_url|s:25:"http://localhost:8080/app";id|s:1:"1";email|s:15:"admin@gmail.com";nama|s:5:"Admin";role|s:1:"1";pesan|s:327:"
+__ci_last_regenerate|i:1718019884;_ci_previous_url|s:25:"http://localhost:8080/app";id|s:1:"1";email|s:15:"admin@gmail.com";nama|s:5:"Admin";role|s:1:"1";pesan|s:327:"
                                 swal({
                                     title: 'Berhasil!',
                                     text: 'Login Berhasil',

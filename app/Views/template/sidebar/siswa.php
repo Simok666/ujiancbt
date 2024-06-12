@@ -12,17 +12,19 @@
                 </div>
                 <div class="shadow-bottom"></div>
                 <ul class="list-unstyled menu-categories" id="accordionExample">
-                    <li class="menu">
-                        <a href="https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank" class="dropdown-toggle">
-                            <div class="">
-                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
-                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="12" cy="7" r="4"></circle>
-                                </svg>
-                                <span>Upgrade Class</span>
-                            </div>
-                        </a>
-                    </li>
+                    <?php if ($siswa->kelas == '7') : ?>
+                        <li class="menu">
+                            <a href="https://wa.me/6285603220708?text=Halo%20saya%20<?= $siswa->nama_siswa; ?>,%20saya%20ingin%20upgrade%20akun%20saya%20" target="_blank" class="dropdown-toggle">
+                                <div class="">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                    <span>Upgrade Class</span>
+                                </div>
+                            </a>
+                        </li>
+                    <?php endif; ?>
                     <li class="menu <?= $dashboard['menu']; ?>">
                         <a href="<?= base_url('siswa'); ?>" aria-expanded="<?= $dashboard['expanded']; ?>" class="dropdown-toggle">
                             <div class="">

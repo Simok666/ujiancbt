@@ -193,14 +193,14 @@
                                         </svg>
                                         <input type="text" id="username" name="no_induk" type="text" class="form-control no-induk" placeholder="Nomor Key" autocomplete="off">
                                     </div> -->
-                                    <div id="username-field" class="field-wrapper input">
+                                    <!-- <div id="username-field" class="field-wrapper input">
                                         <select name="kelas" id="" class="form-control">
                                             <option value="">Kelas</option>
                                             <?php foreach ($kelas as $kel) : ?>
                                                 <option value="<?= $kel->id_kelas; ?>"><?= $kel->nama_kelas; ?></option>
                                             <?php endforeach; ?>
                                         </select>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="d-sm-flex justify-content-between">
                                     <div class="field-wrapper toggle-pass">

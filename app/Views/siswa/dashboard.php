@@ -181,11 +181,12 @@ $mapelmodel = new MapelModel();
     <?php if ($siswa->kelas == '7') : ?>
         $(".notif-materi").on("click", function(a) {
             a.preventDefault();
-            url = "https://wa.me/085603220708?text=Halo%20saya%20ingin%20upgrade%20akun%20saya%20";
+            nama = "<?= $siswa->nama_siswa ?>";
+            url = "https://wa.me/6285603220708?text=Halo%20saya%20"+nama+",%20saya%20ingin%20upgrade%20akun%20saya%20";
             swal({
                 icon: "error",
                 title: "Ups...",
-                text: "Akun anda masih trial, mohon hubungi admin dinomor WhatsApp +62 856-0322-0708 atau klik Upgrade Premium",
+                text: "Akun anda masih trial",
                 type: "warning",
                 showCancelButton: !0,
                 cancelButtonText: "Nanti dulu",
